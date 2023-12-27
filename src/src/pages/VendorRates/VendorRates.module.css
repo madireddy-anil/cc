@@ -1,0 +1,32 @@
+.vendor-rates_market {
+  display: flex;
+  justify-content: space-between;
+}
+.vendor-rates__leftSide {
+  display: flex;
+  align-self: flex-start;
+}
+.vendor-rates__rightSide {
+  display: flex;
+  align-self: flex-end;
+}
+
+.vendor-rates-custom-header > div > div:last-child {
+  width: 50% !important;
+}
+
+.vendor-rates-custom-header > div > div:last-child > div {
+  width: 100% !important;
+}
+
+.vendor-rates__accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* TODO: Review after Accordion update */
+.vendor-rates__accordion-header + [class*="ant-collapse-extra"] {
+  display: none !important;
+}

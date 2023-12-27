@@ -1,0 +1,79 @@
+.person__info__wrapper {
+  margin-bottom: 20px;
+}
+
+.title__info,
+.email__info {
+  display: flex;
+  align-items: center;
+}
+
+.title__info .title {
+  margin-right: 15px;
+}
+
+.title__info .share__percentage {
+  padding: 4px 8px;
+  background: #f7f8fa;
+  border-radius: 50px;
+}
+
+.email__info .email {
+  margin-right: 5px;
+}
+.idv__status .success [class*="tag-main-wrapper"] {
+  background: #ecf8f3;
+  border-radius: 100px;
+}
+
+.idv__status .success [class*="tag-main-wrapper"] span,
+.person__info__header .terms__status span {
+  color: #54d19d;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.idv__status .reject [class*="tag-main-wrapper"] {
+  background: #fff2f2;
+  border-radius: 100px;
+}
+
+.idv__status .reject [class*="tag-main-wrapper"] span {
+  color: #ff5757;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.idv__status:nth-child(1) [class*="ant-tag"] {
+  background: #ecf8f3;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+.idv__status:nth-child(1) [class*="ant-tag"] svg {
+  fill: rgba(84, 209, 157, 1);
+}
+
+.person__info__wrapper .person__info__header {
+  margin-bottom: 25px;
+}
+
+.person__info__wrapper .person__info__header .terms__status {
+  margin-left: 10px;
+}
+
+.person__info__wrapper .person__info__footer {
+  margin-top: 25px;
+}
+.not_required_status [class*="ant-tag"] {
+  background: #eefbf6;
+}
+.required_status [class*="ant-tag"] {
+  background: #fffaec;
+}
+
+.send-btn button {
+  float: right;
+  margin-top: 30px;
+}

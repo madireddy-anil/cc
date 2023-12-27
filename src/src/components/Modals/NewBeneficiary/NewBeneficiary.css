@@ -1,0 +1,62 @@
+.ant-modal .ant-modal-body > div {
+  margin-left: 0;
+}
+.ant-modal .ant-modal-body > div:nth-child(1) {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.ant-modal .ant-modal-body > div:nth-child(2) {
+  font-size: 14px;
+  color: var(--font-secondary);
+}
+.ant-modal .ant-modal-footer {
+  padding: 15px 24px;
+}
+.ant-modal-body .ant-row.ant-form-item {
+  height: unset;
+}
+.ant-modal-body .ant-row.ant-form-item + .ant-row.ant-form-item {
+  margin-top: 20px;
+}
+.ant-modal-body .new-beneficiary-input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.ant-modal-body .new-beneficiary-input-group > div {
+  width: calc(50% - 7px);
+}
+.ant-modal-body .ant-row.ant-form-item {
+  margin-bottom: 0;
+}
+.ant-modal .ant-modal-footer {
+  padding-top: 0;
+}
+.new-beneficiary-switch-name-wrapper {
+  margin-bottom: 15px;
+}
+.new-beneficiary-switch-name-wrapper > div {
+  width: 100%;
+}
+.new-beneficiary-switch-name-wrapper > div > span {
+  padding: 5px 0;
+  width: 50%;
+  text-align: center;
+}
+.new-beneficiary-switch-name-wrapper > div > span:last-child {
+  width: 0;
+}
+.new-beneficiary-loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.bene-info {
+  display: flex;
+  flex-direction: row;
+}
+.bene-info-text {
+  color: var(--font-secondary);
+  padding-top: 1px;
+  padding-left: 5px;
+}

@@ -1,0 +1,7 @@
+.filter-drawer-buttons {
+  display: flex;
+  direction: rtl;
+}
+.error-data-row {
+  cursor: pointer;
+}

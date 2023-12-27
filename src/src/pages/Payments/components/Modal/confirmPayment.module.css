@@ -1,0 +1,36 @@
+.currency-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.currency-card__value {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin: 0px 6px 0px 0px;
+}
+
+.currency-card__account {
+  margin: 0px;
+}
+
+.currency-list__view {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 100px;
+}
+
+[class*="list__container"] {
+  max-width: none;
+  padding: 0 !important;
+}
+
+.currency-list__view [class*="button--medium"] {
+  padding-right: 0;
+}
+
+.fees div {
+  padding: 0;
+  max-width: 95%;
+}

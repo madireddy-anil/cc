@@ -1,0 +1,45 @@
+.risk__category {
+  margin: 8px 0px 0px 24px;
+}
+.risk__category span {
+  background: #fff2f2;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 11px;
+  color: #ff5757;
+}
+.general__edit {
+  margin-left: 20px;
+}
+.general__edit button {
+  border: 1px solid #dee2e7;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+.general__edit [class*="ds-icon-"] {
+  width: 14px !important;
+}
+.linkObject__drawer {
+  position: absolute;
+  top: 7%;
+  right: 0;
+}
+.linkObject__drawer button {
+  background: #fff;
+  border-radius: 0;
+  height: 30px !important;
+  width: 30px !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 10px;
+}
+.linkObject__drawer button [class*="ds-icon-"] {
+  width: 11px !important;
+  height: 11px;
+}
+
+@media (max-width: 1366px) {
+  .linkObject__drawer {
+    top: 10%;
+  }
+}

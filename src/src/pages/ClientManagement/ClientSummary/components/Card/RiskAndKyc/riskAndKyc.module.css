@@ -1,0 +1,52 @@
+.risk__kyc__wrapper {
+  background: #ffffff;
+  border: 1px solid #ebeef2;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 12px 0;
+}
+.risk__kyc__wrapper [class*="page-header"] {
+  margin: 5px 0;
+  padding: 0;
+}
+.risk__kyc__wrapper [class*="page-header__title"] {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(57 61 67);
+}
+.risk__kyc__wrapper .btn__rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  border: 1px solid #ebeef2;
+  border-radius: 50px;
+  padding: 8px 20px;
+  width: 120px;
+}
+.risk__kyc__wrapper .btn__rightSide span,
+.risk__kyc__subHeader .btn__leftSide {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(57 61 67);
+}
+.risk__kyc__subHeader {
+  display: flex;
+  margin-bottom: 25px;
+}
+.risk__kyc__subHeader .btn__leftSide {
+  background: #f7f8fa;
+  border-radius: 100px;
+  padding: 10px 15px;
+  margin-right: 8px;
+}
+.risk__kyc__subHeader .btn__leftSide:first-child {
+  background: #fff2f2;
+  border-radius: 100px;
+  padding: 10px 15px;
+}
+.risk__kyc__subHeader .btn__leftSide:first-child span {
+  color: #ff5757;
+  font-weight: 600;
+  font-size: 12px;
+}

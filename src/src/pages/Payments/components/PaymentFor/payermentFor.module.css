@@ -1,0 +1,11 @@
+.payment-for [class*="radioCurrency_radioCurrency__title"] {
+  max-width: 100%;
+}
+.payment-for--radioDesp {
+  display: flex;
+  flex-direction: column;
+}
+.payment-for--radioText {
+  margin-top: 8px;
+  width: fit-content;
+}

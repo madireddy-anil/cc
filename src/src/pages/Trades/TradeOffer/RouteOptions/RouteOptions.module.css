@@ -1,0 +1,29 @@
+.route-options-wrapper [class*="ant-collapse-content-box"],
+.price-calculation-wrapper [class*="ant-collapse-content-box"] {
+  padding-top: 0 !important;
+}
+.route-options-content label[class*="ant-radio-wrapper"] {
+  margin-right: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.route-options-content span[class*="ant-radio"] {
+  top: 0;
+}
+.route-options-content span[class*="ant-radio"] + span {
+  padding-left: 25px;
+  padding-right: 0;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 -16px 0 -16px;
+  padding: 15px 16px 0;
+  border-top: solid 1px var(--neutral-100);
+}
+.price-calculation-content .button-wrapper {
+  margin-top: 15px;
+}

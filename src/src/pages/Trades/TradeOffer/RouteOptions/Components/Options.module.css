@@ -1,0 +1,29 @@
+.option-content {
+  display: flex;
+  justify-content: space-between;
+}
+.option-data {
+  display: flex;
+}
+.option-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.see-more {
+  font-size: 13px;
+  color: var(--blue-500);
+  cursor: pointer;
+}
+.option-data {
+  display: flex;
+}
+.option-data > div {
+  display: flex;
+  flex-direction: column;
+}
+.option-data > div:not(:last-child) {
+  margin-right: 25px;
+  padding-right: 25px;
+  border-right: solid 1px var(--neutral-100);
+}

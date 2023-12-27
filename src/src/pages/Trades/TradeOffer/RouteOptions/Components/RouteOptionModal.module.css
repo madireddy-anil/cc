@@ -1,0 +1,46 @@
+.option-data {
+  display: block;
+}
+.option-data > article {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.option-data .divider {
+  width: 1px;
+  background-color: var(--neutral-100);
+}
+.option-data > article > div > span {
+  display: block;
+}
+.route-option-modal-content {
+  max-height: calc(100vh - 320px);
+  overflow-y: auto;
+  margin-right: -20px;
+  padding-right: 20px;
+}
+.table-wrapper [class*="ant-table"] table thead th {
+  font-size: 12px;
+  color: var(--neutral-500);
+  white-space: nowrap;
+}
+.table-row > td {
+  vertical-align: top;
+  color: var(--neutral-700);
+}
+.table-row:nth-child(even) {
+  background-color: var(--neutral-50);
+}
+.row-sub-data > span {
+  font-size: 12px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+.row-sub-data > span:first-child {
+  margin-top: 4px;
+}
+.row-sub-data > span > div {
+  transform: scale(0.75);
+}

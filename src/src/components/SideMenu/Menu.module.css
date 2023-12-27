@@ -1,0 +1,6 @@
+[class*="sidemenu_menu__container"] {
+  z-index: 3;
+}
+[class="ant-menu-item-group-title"] {
+  pointer-events: none;
+}

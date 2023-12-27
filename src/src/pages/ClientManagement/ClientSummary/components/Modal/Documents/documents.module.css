@@ -1,0 +1,60 @@
+.documents-wrapper .headerText {
+  text-transform: capitalize;
+}
+.documents-wrapper [class*="status__iconOnly--boundary"] {
+  margin-left: 7px;
+}
+.documents-wrapper [class*="accordion"][class*="ant-collapse"] {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.documents-wrapper
+  [class*="accordion"][class*="ant-collapse"]
+  [class*="ant-collapse-item"]
+  [class*="ant-collapse-header"] {
+  padding: 20px;
+}
+.documents-wrapper
+  [class*="accordion"][class*="ant-collapse"]
+  [class*="ant-collapse-item"]
+  [class*="ant-collapse-header"]
+  [class*="anticon"] {
+  margin-right: 0px;
+}
+.documents-wrapper .cardWrapper {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(227, 232, 240);
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.documents-wrapper .cardCommentSection {
+  border-top: 1px solid #ebeef2;
+  padding-top: 25px;
+}
+.documents-wrapper [class*="input--medium"] {
+  height: 90px !important;
+}
+.documents-wrapper [class*="approveBtn"],
+.documents-wrapper [class*="rejectBtn"] {
+  display: flex !important;
+  align-items: center;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+.custom-upload--wrapper {
+  margin-top: 20px;
+}
+.custom-uploadList--wrapper [class*="ant-upload ant-upload-drag"] {
+  display: none;
+}
+.custom-upload--wrapper [class*="ant-upload-list"] {
+  display: none;
+}
+/* @media (min-width: 480px) and (max-width: 1367px) {
+  .documents-wrapper {
+    height: 350px;
+  }
+} */

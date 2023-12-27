@@ -1,0 +1,12 @@
+.accountRadioGrp--radioText {
+  margin-top: 8px;
+  width: fit-content;
+}
+
+/* 
+ * Temporary CSS change for OLD design
+ * TODO: When new design added, Need to remove 
+*/
+[class*="currencyTag_currencyTag__currency"] {
+  max-width: 80px;
+}

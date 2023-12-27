@@ -1,0 +1,33 @@
+.badge {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  padding: 6px;
+  border-radius: 50%;
+}
+.badge::before {
+  display: block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.badge.badge-green {
+  background-color: var(--green-50);
+}
+.badge.badge-green::before {
+  background-color: var(--green-500);
+}
+.badge.badge-yellow {
+  background-color: var(--yellow-50);
+}
+.badge.badge-yellow::before {
+  background-color: var(--yellow-500);
+}
+.badge.badge-red {
+  background-color: var(--red-50);
+}
+.badge.badge-red::before {
+  background-color: var(--red-500);
+}

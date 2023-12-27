@@ -1,0 +1,69 @@
+/* .trade-offer-card {
+} */
+
+.trade-offer-card__title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.trade-offer-card__detail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.trade-offer-card__detail-text {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.trade-offer-card__list {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 25px;
+  list-style: none;
+}
+
+.trade-offer-card__list-item + .trade-offer-card__list-item {
+  margin-top: 25px;
+}
+
+.trade-offer-card__list-item-title {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  color: var(--font-secondary);
+}
+
+.trade-offer-card__list-item-description {
+  display: block;
+  margin-bottom: 0px;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.button-icon [class*="icon_ds-icon"] {
+  width: 16px !important;
+}
+
+.doc-img {
+  cursor: pointer;
+  color: blue;
+}

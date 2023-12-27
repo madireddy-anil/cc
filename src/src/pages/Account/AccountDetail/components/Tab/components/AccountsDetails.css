@@ -1,0 +1,16 @@
+.value__withCopy,
+.title__withCopy,
+.footer__withCopy {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.title__withCopy,
+.footer__withCopy {
+  justify-content: start;
+}
+
+.footer__withCopy {
+  align-items: center;
+}

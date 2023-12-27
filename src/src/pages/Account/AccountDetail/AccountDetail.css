@@ -1,0 +1,12 @@
+.ant-pagination {
+  display: flex;
+}
+.ant-pagination li:first-child {
+  flex-grow: 1;
+  flex-basis: 0;
+  font-size: 1.2rem;
+}
+.account-table-row {
+  cursor: pointer;
+  font-size: 1.2rem;
+}

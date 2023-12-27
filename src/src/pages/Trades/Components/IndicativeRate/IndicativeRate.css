@@ -1,0 +1,108 @@
+.ant-carousel,
+.slick-slider,
+.slick-list,
+.slick-track {
+  height: auto;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: auto;
+  background: #364d79;
+  overflow: hidden;
+  background-color: transparent !important;
+}
+
+.rate-grid-card-currency {
+  align-items: center;
+  display: flex;
+  padding: 5px 10px 5px 0px;
+  border-radius: 15px;
+}
+
+/* import from client portal */
+.rate-grid-card {
+  border-radius: 12px;
+  padding: 28px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  border-color: #ebeef2;
+  padding: 0px;
+  margin-bottom: 1rem;
+  height: calc(100% - 1rem);
+}
+
+.rate-grid-card-status {
+  border-radius: 2.8rem;
+  margin: 0;
+  padding: 20px 10px 5px 10px;
+}
+
+.text-value {
+  color: #000000;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 140%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 120px;
+}
+
+.btn-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  padding: 0px;
+  margin: 0px 0.25rem;
+  background-color: #fc5252;
+}
+
+.dot-grey {
+  background-color: #bbbbbc;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 5px;
+}
+
+.indicative-spinner-container {
+  width: 100%;
+  height: 264px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1500px) {
+  .rate-grid-card-container {
+    max-width: 25%;
+    flex: 0 0 25%;
+  }
+}
+
+@media (max-width: 1499px) and (min-width: 1270px) {
+  .rate-grid-card-container {
+    max-width: 33.3333%;
+    flex: 0 0 33.3333%;
+  }
+}
+
+@media (max-width: 1269px) and (min-width: 1050px) {
+  .rate-grid-card-container {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 1049px) {
+  .rate-grid-card-container {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}

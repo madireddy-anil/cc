@@ -1,0 +1,13 @@
+.amount-page [class*="ant-row"][class*="ant-form-item"] {
+  height: unset;
+}
+.amount-page .send_amount-field {
+  margin-bottom: 10px;
+}
+.amount-page .send_amount-field [class*="ant-row"][class*="ant-form-item"] {
+  margin-bottom: 2px;
+}
+.fees div {
+  padding: 0;
+  max-width: 98%;
+}

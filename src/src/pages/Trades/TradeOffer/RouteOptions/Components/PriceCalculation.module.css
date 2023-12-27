@@ -1,0 +1,25 @@
+.pc-table [class*="ant-table-tbody"] > tr:last-child > td {
+  border-bottom: none;
+}
+
+.pc_main {
+  margin-left: 15px;
+}
+
+.pc_main__accordion-header__right {
+  width: 128px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pc-main span:first-child {
+  margin-left: 45px;
+}
+
+.pc-main__accordion-header__right > span {
+  margin-left: 0px !important;
+}
+
+.pc-main div {
+  border: none !important;
+}

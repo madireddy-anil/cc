@@ -1,0 +1,9 @@
+.CP-pagination {
+  display: flex;
+}
+
+.CP-pagination li:first-child {
+  flex-grow: 1;
+  flex-basis: 0;
+  font-size: 1.2rem;
+}

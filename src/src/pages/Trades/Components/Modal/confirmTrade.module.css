@@ -1,0 +1,16 @@
+.currency-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.currency-card__value {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin: 0px 6px 0px 0px;
+}
+
+.currency-card__account {
+  margin: 0px;
+}

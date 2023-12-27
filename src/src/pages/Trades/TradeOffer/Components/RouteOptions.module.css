@@ -1,0 +1,68 @@
+.route-options-wrapper {
+  display: block;
+}
+.route-options-wrapper
+  [class*="ant-collapse"]
+  [class*="ant-collapse-item"]
+  [class*="ant-collapse-header"] {
+  padding: 24px;
+}
+.route-options-wrapper
+  [class*="ant-collapse-ghost"]
+  > [class*="ant-collapse-item"]
+  > [class*="ant-collapse-content"]
+  > [class*="ant-collapse-content-box"] {
+  padding: 0 24px 24px;
+}
+.route-options-wrapper [class*="ant-radio-wrapper"] {
+  width: 100%;
+  margin-right: 0;
+  align-items: center;
+}
+.route-options-wrapper [class*="ant-radio-wrapper"] > span:last-child {
+  flex-basis: 0;
+  flex-grow: 1;
+  padding-right: 0;
+  padding-left: 25px;
+}
+.option-content {
+  display: flex;
+  justify-content: space-between;
+}
+.option-detail > span {
+  display: block;
+}
+.option-detail > span:last-child {
+  font-size: 13px;
+  color: var(--blue-500);
+  cursor: pointer;
+}
+.option-data {
+  display: flex;
+}
+.option-data > div:not(:last-child) {
+  margin-right: 25px;
+  padding-right: 25px;
+  border-right: solid 1px var(--neutral-100);
+}
+.option-data > div > span {
+  display: block;
+}
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 10px -24px 0 -24px;
+  padding: 24px 24px 0;
+  border-top: solid 1px var(--neutral-100);
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 -16px 0 -16px;
+  padding: 15px 16px 0;
+  border-top: solid 1px var(--neutral-100);
+}
+.price-calculation-content .button-wrapper {
+  margin-top: 15px;
+}

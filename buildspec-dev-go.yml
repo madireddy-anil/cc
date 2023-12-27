@@ -1,0 +1,68 @@
+version: 0.2
+env:
+  variables:
+    REACT_APP_AUTH_API_URL: "https://cc-api.dev.payconstruct.com/v1"
+    REACT_APP_BMS_SERVICE_API_URL: "https://bms-api.dev.payconstruct.com"
+    REACT_APP_CLIENT_CONNECT_API_URL: "https://cc-api.dev.payconstruct.com/v1"
+    REACT_APP_RATES_API_URL: "https://pc-rates.dev.payconstruct.com"
+    REACT_APP_BENEFICIARY_API_URL: "https://pc-beneficiary.dev.payconstruct.com"
+    REACT_APP_TRADES_API_URL: "https://pp-efx-orders.dev.payperform.com"
+    REACT_APP_ROUTES_API_URL: "https://pp-efx-routes.dev.payperform.com"
+    REACT_APP_FINANCE_API_URL: "https://pp-efx-finance.dev.payperform.com"
+    REACT_APP_TERMS_SERVICES_DOC_URL: "https://cc-terms-service-document.dev.payconstruct.com/v1"
+    REACT_APP_GPP_API_URL: "https://gpp-api.dev.payconstruct.com/v1"
+    REACT_APP_AUTH0_CLIENT_ID: "ao3ncVP2soVRHzBIlHXiNDpqfE0spsl4"
+    REACT_APP_AUTH0_AUDIENCE: "https://client-connect-dev.eu.auth0.com/api/v2/"
+    REACT_APP_AUTH0_DOMAIN: "client-connect-dev.eu.auth0.com"
+    REACT_APP_AUTH0_REDIRECTION_URL: "https://control.dev.getorbital.com/verify-authorization"
+    REACT_APP_AUTH0_SCOPE: "openid profile email address phone offline_access enroll"
+    REACT_APP_LOGOUT_URL: "https://control.dev.getorbital.com/login"
+    REACT_APP_REVOKE_TOKEN_API_URL: "https://cc-token.dev.getorbital.com"
+
+phases:
+  install:
+    commands:
+      # Install nodejs https://nodejs.org/en/download/package-manager/
+      - apt-get update -y
+      - apt-get install ca-certificates
+      #- curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
+      - curl -sL https://deb.nodesource.com/setup_16.x | bash -
+      - apt-get install -y nodejs
+      - npm install -g yarn
+      # Install yarn natively httpss://yarnpkg.com/en/docs/install#linux-tab
+      #      - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+      #      - echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+      #      - apt-get update
+      - apt-get install -y python3-pip awscli s3cmd
+  pre_build:
+    commands:
+      - aws s3 cp s3://$STAGE-npm-token/.npmrc src
+      - cd src
+      - ls
+      - yarn install
+  build:
+    commands:
+      #      - npm run-script test
+      #- npm run-script build
+      - yarn build
+
+  post_build:
+    commands:
+      - aws s3 cp build s3://${S3_DEPLOY_BUCKET} --recursive
+#      - cd $CODEBUILD_SRC_DIR/build; zip -r ../build.zip *
+#artifacts:
+#  files:
+#    - '**/*'
+#  base-directory: 'build*'
+#artifacts:
+#  files:
+#    - build.zip
+#  discard-paths: yes
+#  post_build:
+#    commands:
+#      - aws s3 sync --delete --exclude assets/* build/ "s3://${BUCKET_NAME}"
+#      - aws s3 sync --delete --cache-control "max-age=31536000" build/assets "s3://${BUCKET_NAME}/assets"
+#artifacts:
+#  files:
+#    - */*
+#  base-directory: build

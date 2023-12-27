@@ -1,0 +1,24 @@
+.list-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-card .row {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding-right: 25px;
+  width: 20%;
+  word-break: break-all;
+}
+
+.list-card .row:last-child {
+  margin-right: 0;
+  border-right: none;
+}
+
+.list-card .row > span:first-child {
+  margin-bottom: 8px;
+}

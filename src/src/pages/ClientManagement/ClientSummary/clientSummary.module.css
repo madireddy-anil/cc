@@ -1,0 +1,60 @@
+.user__detail_card__Wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.website__info__body {
+  margin: 35px 0;
+}
+.website__info__content__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  background: #ffffff;
+  border: 1px solid #ebeef2;
+  border-radius: 10px;
+  padding: 12px;
+}
+.website__info__content__inner:hover {
+  box-shadow: 1px 1px 5px 2px #ebeef2;
+}
+.website__info__body .add__website__icon {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+}
+.website__info__body .btn__add {
+  display: flex !important;
+  font-size: 13px;
+}
+.website__info__body .btn__add svg {
+  width: 14px !important;
+}
+.website__info__body [class*="ant-form-item"] {
+  margin: 0 !important;
+}
+.addressForm [class*="switch-name__string"] {
+  font-size: 12px;
+  white-space: nowrap;
+}
+.addressForm .formWrapper {
+  margin: 35px 0 0;
+}
+.addressForm [class*="input_inputWrapper"] {
+  height: 60px !important;
+}
+.new-client-modal
+  [class*="ant-row ant-form-item"]
+  [class*="ant-col ant-form-item-control"]
+  [class*="ant-form-item-explain ant-form-item-explain-error"] {
+  font-size: 10px;
+  margin-top: -25px;
+}
+.client-form-modal [class*="ant-row ant-form-item"] {
+  margin: 0;
+  height: 75px;
+}
+.new-client-modal [class*="ant-modal-body"] {
+  margin-bottom: -30px;
+}

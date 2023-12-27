@@ -1,0 +1,13 @@
+.payer-selection [class*="radioCurrency_radioCurrency__title"] {
+  max-width: 100%;
+}
+
+.payer-selection--radioDesp {
+  display: flex;
+  flex-direction: column;
+}
+
+.payer-selection--radioText {
+  margin-top: 8px;
+  width: fit-content;
+}

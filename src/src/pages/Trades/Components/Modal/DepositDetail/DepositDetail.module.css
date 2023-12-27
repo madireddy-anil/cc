@@ -1,0 +1,36 @@
+.deposit-detail-modal [class*="input_inputWrapper"] {
+  height: auto;
+}
+.deposit-vendor__wrapper {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.deposit-vendor {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.deposit-vendor__name {
+  margin-right: 10px;
+}
+
+[class*="modal_modal-main-wrapper"] .deposit-detail__add-new-account {
+  display: flex !important;
+}
+
+[class*="modal_modal-main-wrapper"] .deposit-detail__edit-vendor {
+  display: flex !important;
+  padding: 0 5px 0 0;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  outline: none !important;
+}
+
+.deposit-vendor__flex-between {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}

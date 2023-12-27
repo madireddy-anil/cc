@@ -1,0 +1,18 @@
+.manual_txn_form_wrapper .ant-row.ant-form-item {
+  margin-bottom: 15px;
+}
+
+.manual_txn-switch-name-wrapper {
+  margin-bottom: 15px;
+}
+.manual_txn-switch-name-wrapper > div {
+  width: 100%;
+}
+.manual_txn-switch-name-wrapper > div > span {
+  padding: 5px 0;
+  width: 50%;
+  text-align: center;
+}
+.manual_txn-switch-name-wrapper > div > span:last-child {
+  width: 0;
+}

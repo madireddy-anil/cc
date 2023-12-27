@@ -1,0 +1,46 @@
+/* .table-spacing {
+    marginright: "100px";
+    marginleft: "100px";
+} */
+
+.ant-card-head {
+  display: none;
+}
+
+/* .ant-pagination{
+    display: none;
+} */
+
+.trades-header .btn button,
+.trades-header .btn button:hover {
+  box-shadow: none;
+}
+
+.trade-row--clickable {
+  cursor: pointer;
+}
+
+.indicative-rate .ant-collapse-header,
+.indicative-rate .ant-collapse-content-box {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+.indicative-rate .ant-collapse-header-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.text-noue {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}

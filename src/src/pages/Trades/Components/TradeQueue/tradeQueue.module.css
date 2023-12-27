@@ -1,0 +1,51 @@
+.trade-queue {
+  position: relative;
+  padding: 96px 25px 25px 25px;
+  background-color: white;
+  border-right: 1px solid;
+  width: 244px;
+  max-height: calc(100vh);
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  overflow: auto;
+}
+
+.trade-queue__title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.trade-queue__title + .trade-queue__title {
+  margin-top: 25px;
+}
+
+.trade-queue__item {
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.trade-queue__item + .trade-queue__item {
+  margin-top: 15px;
+}
+
+.trade-queue__item:last-child {
+  margin-bottom: 25px;
+}
+
+.trade-queue__text-data {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+
+.trade-queue__text-value {
+  font-size: 1.4;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.trade-queue [class*="list_list__container--vertical"] {
+  max-width: 100%;
+}

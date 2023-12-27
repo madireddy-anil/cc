@@ -1,0 +1,57 @@
+.dynamic-table {
+  width: 100%;
+}
+.dynamic-table thead tr {
+  background-color: var(--neutral-50);
+  border-bottom: solid 1px var(--neutral-100);
+}
+.dynamic-table thead tr th {
+  text-align: left;
+  padding: 15px 13px;
+  color: var(--neutral-500);
+  font-size: 12px;
+}
+.dynamic-table thead tr th:first-child {
+  width: 30px;
+  padding: 0;
+}
+.dynamic-table tbody tr {
+  cursor: pointer;
+}
+.dynamic-table tbody tr td {
+  padding: 15px;
+}
+.dynamic-table tbody tr.tdetails td {
+  padding-top: 0;
+}
+.dynamic-table tbody tr.tdetails td > div {
+  display: flex;
+  gap: 15px;
+}
+.dynamic-table tbody tr.tdetails td > div > div {
+  flex-basis: 0;
+  flex: 1;
+}
+.dynamic-table tbody tr td.arrow {
+  padding: 0;
+  text-align: right;
+}
+.dynamic-table tbody tr.odd {
+  background-color: var(--neutral-50);
+}
+.dynamic-table tbody tr:last-child {
+  border-bottom: solid 1px var(--neutral-100);
+}
+.dynamic-table tbody td:first-child > span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-top: solid 1px var(--neutral-300);
+  border-right: solid 1px var(--neutral-300);
+  transform: rotate(45deg);
+  transition: transform 0.24s, border-color 0.24s;
+}
+.dynamic-table tbody td:first-child > span.open {
+  border-color: var(--neutral-700);
+  transform: rotate(135deg);
+}

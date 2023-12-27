@@ -1,0 +1,28 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  align-self: center;
+}
+
+.page-header__title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header__title {
+  margin: 0px;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 16px;
+}
+
+.page-header__leftSide {
+  display: flex;
+  align-self: flex-start;
+}
+.page-header__rightSide {
+  display: flex;
+  align-self: flex-end;
+}

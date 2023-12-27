@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.error-name {
+  display: flex;
+  align-items: center;
+}
+.badge {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+.approve-button,
+.reject-button {
+  width: 123px;
+}
+.approve-button > svg {
+  width: 14px !important;
+  margin-left: 0;
+}
+.reject-button > svg {
+  margin-left: 0;
+}
+.card-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.card-wrap > div {
+  width: calc(50% - 7.5px);
+}
+.custom-accordion > div:first-child {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.custom-accordion [class*="ant-collapse"] {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-color: var(--outline) !important;
+  border-top: none !important;
+}
+.custom-accordion
+  [class*="ant-collapse"]
+  [class*="ant-collapse-item"]
+  [class*="ant-collapse-header"] {
+  padding: 20px 25px;
+}
+.custom-accordion span[class*="ant-collapse-arrow"] {
+  margin-right: 0 !important;
+}
+.custom-accordion [class*="ant-collapse-content-box"] {
+  padding: 0 25px 25px;
+}

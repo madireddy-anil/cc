@@ -1,0 +1,4 @@
+.account-settings-modal [class*="ant-row ant-form-item"] {
+  margin: 0;
+  height: 75px;
+}

@@ -1,0 +1,25 @@
+.filter__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter__main {
+  margin-top: 20px;
+}
+
+.filter__footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 18px;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cancel__filter-btn {
+  margin-right: 14px;
+}

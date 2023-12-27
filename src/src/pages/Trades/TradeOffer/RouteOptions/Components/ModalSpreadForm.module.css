@@ -1,0 +1,13 @@
+.modal-spread-input-row {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: -40px;
+}
+
+.modal-spread-input-row > div {
+  flex-grow: 1;
+}
+
+.modal-spread-input-row > div:first-child {
+  margin-right: 20px;
+}

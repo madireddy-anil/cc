@@ -1,0 +1,13 @@
+.move-between-accounts [class*="radioCurrency_radioCurrency__title"] {
+  max-width: 100%;
+}
+
+.move-between-accounts--radioDesp {
+  display: flex;
+  flex-direction: column;
+}
+
+.move-between-accounts--radioText {
+  margin-top: 8px;
+  width: fit-content;
+}

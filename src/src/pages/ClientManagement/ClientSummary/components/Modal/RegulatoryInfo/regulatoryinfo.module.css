@@ -1,0 +1,22 @@
+.regulatoryInfo__Wrapper .info__rightSide {
+  justify-content: end;
+  text-align: right;
+}
+.regulatoryInfo__Wrapper [class*="ant-row"] {
+  margin: 7px 0;
+}
+.regulatoryInfo__Wrapper .info__rightSide svg,
+.regulatoryInfo__Wrapper [class*="tag_tag-main-wrapper"] {
+  margin: 0;
+}
+.additionalFlowOfFunds {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.additionalFlowOfFunds .text_wrap_text_less {
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

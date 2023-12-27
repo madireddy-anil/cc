@@ -1,0 +1,26 @@
+/* .ant-pagination */
+.CP-pagination {
+  display: flex;
+}
+
+.CP-pagination li:first-child {
+  flex-grow: 1;
+  flex-basis: 0;
+  font-size: 1.2rem;
+}
+.new-client-modal
+  [class*="ant-row ant-form-item"]
+  [class*="ant-col ant-form-item-control"]
+  [class*="ant-form-item-explain ant-form-item-explain-error"] {
+  font-size: 10px;
+  margin-top: -25px;
+}
+
+.client-form-modal [class*="ant-row ant-form-item"] {
+  margin: 0;
+  height: 75px;
+}
+
+.new-client-modal [class*="ant-modal-body"] {
+  margin-bottom: -30px;
+}

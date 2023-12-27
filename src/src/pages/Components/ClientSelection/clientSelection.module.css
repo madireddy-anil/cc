@@ -1,0 +1,13 @@
+.client-selection [class*="radioCurrency_radioCurrency__title"] {
+  max-width: 100%;
+}
+
+.client-selection--radioDesp {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-selection--radioText {
+  margin-top: 8px;
+  width: fit-content;
+}

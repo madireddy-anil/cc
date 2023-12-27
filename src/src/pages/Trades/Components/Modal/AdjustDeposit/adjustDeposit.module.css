@@ -1,0 +1,7 @@
+.adjust-deposit [class*="input_inputWrapper"] {
+  height: auto;
+}
+
+.adjust-deposit [class*="input_floatingLabel"] {
+  top: -6px;
+}

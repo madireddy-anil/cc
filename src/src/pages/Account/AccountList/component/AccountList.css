@@ -1,0 +1,61 @@
+.account-list-options-height {
+  height: 40px;
+}
+
+.account-options-toggle {
+  display: flex;
+  direction: rtl;
+  align-items: center;
+}
+
+.account-options-toggle > div {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.account-grid-card {
+  border-radius: 12px;
+  padding: 28px;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 28px;
+}
+
+.account-grid-card-currency {
+  padding: 5px 10px 5px 5px;
+  border-radius: 15px;
+}
+
+.account-grid-card-status {
+  border-radius: 2.8rem;
+  margin: 0;
+  padding: 20px 10px 5px 10px;
+}
+
+.ant-pagination {
+  display: flex;
+}
+.ant-pagination li:first-child {
+  flex-grow: 1;
+  flex-basis: 0;
+  font-size: 1.2rem;
+}
+
+.uc-first {
+  text-transform: capitalize !important;
+}
+
+.account-list-view-row {
+  cursor: pointer;
+}
+
+.account-grid-card {
+  cursor: pointer;
+}
+
+/* grid view */
+.card-acc_no span {
+  word-break: break-all;
+}

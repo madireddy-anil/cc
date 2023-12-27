@@ -1,0 +1,7 @@
+.payment-details > div {
+  display: flex;
+  justify-content: space-between;
+}
+.payment-details > div + div {
+  margin-top: 15px;
+}

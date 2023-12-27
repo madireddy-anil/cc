@@ -1,0 +1,57 @@
+.list-card {
+  display: flex;
+  position: relative;
+  top: -7px;
+  z-index: 1;
+  margin-bottom: -30px;
+}
+.list-card .row {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-basis: 0;
+  box-sizing: border-box;
+}
+ol {
+  padding-inline-start: 20px;
+}
+.all-page-container {
+  height: 100%;
+  max-height: 500px;
+  overflow: auto;
+}
+/* For pdf */
+.react-pdf__Page {
+  margin-top: 10px;
+}
+.react-pdf__Page__textContent {
+  border: 1px solid darkgrey;
+  box-shadow: 5px 5px 5px 1px #ccc;
+  border-radius: 5px;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+  padding: 20px;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+}
+
+.custom-uploadList--wrapper [class*="ant-upload ant-upload-drag"] {
+  display: none;
+}
+.custom-upload--wrapper [class*="ant-upload-list"] {
+  display: none;
+}
+
+/* .ant-pagination */
+.CP-pagination {
+  display: flex;
+}
+
+.CP-pagination li:first-child {
+  flex-grow: 1;
+  flex-basis: 0;
+  font-size: 1.2rem;
+}

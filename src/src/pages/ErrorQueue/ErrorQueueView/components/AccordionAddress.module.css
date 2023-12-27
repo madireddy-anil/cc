@@ -1,0 +1,10 @@
+.accordion-address-details > span {
+  display: flex;
+  justify-content: space-between;
+}
+.accordion-address-details > span + span {
+  margin-top: 12px;
+}
+.accordion-address-details > span > span:last-child {
+  text-align: right;
+}

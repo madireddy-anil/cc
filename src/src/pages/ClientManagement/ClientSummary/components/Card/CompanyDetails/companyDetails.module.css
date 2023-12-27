@@ -1,0 +1,31 @@
+.client__info_card__container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 250px;
+  background: #ffffff;
+  margin: 25px 12px 25px 0;
+  padding: 25px !important;
+  border: 1px solid #ebeef2;
+  border-radius: 10px;
+}
+.client__info__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.client__info_card__container .client__brand {
+  margin: 0;
+}
+.client__info_card__container .client__brand:first-child {
+  margin: 25px 0;
+}
+.client__info_card__container .client__info__content {
+  margin: 25px 0;
+}
+.client__info__container .inner__content {
+  margin-bottom: 10px;
+}
+.btn__moreInfo [class*="ds-icon-"] {
+  width: 16px !important;
+  fill: rgba(57, 61, 67, 1);
+}

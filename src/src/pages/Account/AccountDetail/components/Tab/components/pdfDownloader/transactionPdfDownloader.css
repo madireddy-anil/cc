@@ -1,0 +1,9 @@
+#transaction-details {
+  display: none;
+  position: absolute;
+  font-family: "Helvetica";
+}
+
+.card-wrapper {
+  width: 95%;
+}
